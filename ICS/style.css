@@ -1,0 +1,93 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-image: url("images/b98a6277-a5b7-4878-91ab-1f390ec12a95.jpeg"); /
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #005577;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0099aa;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+article {
+  margin-bottom: 40px; /* Abstand zwischen Beiträgen */
+}
+
+article h2 {
+  color: #004466;
+  margin-bottom: 10px; /* Abstand zur folgenden Beschreibung */
+}
+
+article p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+article img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  resize: vertical;
+  margin-top: 5px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #0099aa;
+  box-shadow: 0 0 5px rgba(0, 153, 170, 0.5);
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+
