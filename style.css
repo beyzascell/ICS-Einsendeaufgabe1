@@ -1,83 +1,93 @@
 body {
-    background-image: url('00df2e9c3ebf1a2e7a52259ab8478ced430d0a76'); /
-    background-size: cover;
-    background-attachment: fixed;
-    color: #333333;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-image: url("images/b98a6277-a5b7-4878-91ab-1f390ec12a95.jpeg"); /
+  background-size: cover;
+  background-position: center;
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    padding: 20px;
-    border-bottom: 2px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0 15px;
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #2a6f97;
-    font-weight: bold;
+  text-decoration: none;
+  color: #005577;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: #1d4e6e;
+  color: #0099aa;
 }
 
 main {
-    width: 80%;
-    max-width: 800px;
-    margin: 30px auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
 }
 
 article {
-    margin-bottom: 40px;
+  margin-bottom: 40px; /* Abstand zwischen Beiträgen */
 }
 
-h2 {
-    margin-bottom: 15px; /
+article h2 {
+  color: #004466;
+  margin-bottom: 10px; /* Abstand zur folgenden Beschreibung */
 }
 
-img {
-    border-radius: 10px;
-    margin: 15px 0;
+article p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+article img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 5px;
 }
 
 textarea {
-    width: 100%;
-    height: 80px;
-    margin-top: 10px;
-    padding: 8px;
-    font-size: 1em;
-    border: 1px solid #aaa;
-    border-radius: 5px;
-    resize: none;
+  width: 100%;
+  min-height: 80px;
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  resize: vertical;
+  margin-top: 5px;
 }
 
 textarea:focus {
-    border-color: #2a6f97;
-    outline: none;
+  outline: none;
+  border-color: #0099aa;
+  box-shadow: 0 0 5px rgba(0, 153, 170, 0.5);
 }
 
 footer {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-top: 1px solid #ccc;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 20px;
 }
 
